@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ferramenta online capaz de gerar senhas fortes e seguras para o usuário! O Gerador de senhas permite que você crie automaticamente senhas de 6 à 24 caracteres aleatórios.Quanto maior e mais diversa for a sua senha, mais segura a sua navegação será!">
+    <meta name="keywords" content="Gerador de senha, gerador password, gerador senha seguro">
+    <title>Gerador de senha</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <img class="logo" src="./assets/logo.png" alt="Logo do Gerador de senha">
+
+    <main class="painel-input">
+        <span>Tamanho: <span id="valor"></span> caracteres</span>
+        <input id="slider" class="slider" type="range" min="8" max="24" value="16">
+
+        <button id="button" class="button-cta" onclick="generatePassword()">Gerar senha</button>
+
+        <div class="painel-senha hide" onclick="copyPassword()" id="painel-senha" >
+            <span class="title">Sua senha foi gerada:</span>
+            <span id="senha" class="senha"></span>
+            <span class="tooltip">clique para copiar sua senha ☝</span>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
