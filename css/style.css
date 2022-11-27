@@ -22,7 +22,8 @@ header .logo {
     max-width: 600px;
     margin-bottom: 24px;
     display: flex;
-    justify-content: center;
+    justify-content: center;    
+    align-items:center;
 }
 
 .painel-input {

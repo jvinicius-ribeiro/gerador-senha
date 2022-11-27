@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Ferramenta online capaz de gerar senhas fortes e seguras para o usuário! O Gerador de senhas permite que você crie automaticamente senhas de 6 à 24 caracteres aleatórios. Quanto maior e mais diversa for a sua senha, mais segura a sua navegação será!">
+        content="Ferramenta online capaz de gerar senhas fortes e seguras para o usuário! O Gerador de senhas permite que você crie automaticamente senhas de 8 à 24 caracteres aleatórios. Quanto maior e mais diversa for a sua senha, mais segura a sua navegação será!">
     <meta name="keywords" content="Gerador, senha, password, seguro">
+    <meta name="author" content="Vinicius Ribeiro">
     <title>Gerador de senha</title>
 
     <link rel="stylesheet" href="./css/style.css">
@@ -24,7 +25,7 @@
 
         <button id="button" class="button-cta" onclick="generatePassword()">Gerar senha</button>
 
-        <div class="painel-senha hide" onclick="copyPassword()" id="painel-senha">
+        <div id="painel-senha" class="painel-senha hide" onclick="copyPassword()">
             <span class="title">Sua senha foi gerada:</span>
             <span id="senha" class="senha"></span>
             <span class="tooltip"> ⬆️ clique para copiar sua senha 😀</span>
