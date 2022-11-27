@@ -18,9 +18,11 @@ body {
     flex-direction: column;
 }
 
-.logo {
+header .logo {
     max-width: 600px;
     margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
 }
 
 .painel-input {
