@@ -39,7 +39,7 @@ Além disso, o usuário encontra uma *tooltip* clicável que o permite copiar a 
 
 Para fazer esse algoritmo, foi usado JavaScript (além de HTML e CSS para criação da página web em si).
 <br><br>
-Você pode visualizar o projeto [CLICANDO AQUI!](https://jvinicius-ribeiro.github.io/gerador-de-senha/)
+Você pode visualizar o projeto [CLICANDO AQUI!](https://jvinicius-ribeiro.github.io/gerador-senha/)
 
 
 <br>
